@@ -7,6 +7,10 @@ no  warnings 'syntax';
 
 our $VERSION = '2009102801';
 
+use Acme::CPANAuthors::Register (
+    '' => '',
+);
+
 
 1;
 
@@ -14,17 +18,30 @@ __END__
 
 =head1 NAME
 
-Acme::CPANAuthors::Dutch - Abstract
+Acme::CPANAuthors::Dutch - Cheese heads and pot smokers.
 
 =head1 SYNOPSIS
 
+ use Acme::CPANAuthors;
+
+ my $authors = Acme::CPANAuthors -> new ('Dutch');
+
 =head1 DESCRIPTION
+
+The Netherlands is full of people smoking pot, wearing clogs and
+living in wind mills. We don't do Perl.
 
 =head1 BUGS
 
+None.
+
 =head1 TODO
 
+The Netherlands is full. No new people accepted.
+
 =head1 SEE ALSO
+
+The rest of the world.
 
 =head1 DEVELOPMENT
 
